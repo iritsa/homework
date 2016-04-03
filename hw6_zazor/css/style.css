@@ -216,7 +216,7 @@ form {
 
 /*LEFTFORM*/
 
-.leftform {
+.auto_search {
 	float: left;
   height: 135px;
 	padding: 0 11px 0 16px;
@@ -231,7 +231,7 @@ form {
   -moz-box-shadow: 2px 2px 2px 1px rgba(179,179,179,1);
   box-shadow: 2px 2px 2px 1px rgba(179,179,179,1);
 }
-.auto_search > p {
+.auto_search2 > p {
 	margin-left: -10px;
 	text-align: center;
 	color: #154468;
@@ -541,7 +541,6 @@ section  span {
 	background: linear-gradient(to bottom, #e5e7e8, #93a7b0);
 	border-radius: 2px;
 	width: 526px;
-  height: 627px;
 	float: left;
 }
 figure {

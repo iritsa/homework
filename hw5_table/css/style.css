@@ -11,14 +11,10 @@ tr.first {
 td {
   padding: 40px;
   border: 10px solid #000;
-  /*text-align: center;*/
 }
 td.first {
   padding: 20px 40px;
 }
-/*td.first:first-child {
-  padding: 0 20px;
-}*/
 td.first:nth-child(3) {
   background: yellow;
 }
