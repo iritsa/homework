@@ -3,7 +3,8 @@
  padding: 0;
 }
 body{
-	background-image: url(../img/fon.jpg);
+  background: url('../img/fon.jpg') center, no-repeat;
+  -webkit-background-size: cover;
 	background-size: cover;
 	font-family: 'Helvetica Neue';
 	font-size: 14px;
@@ -52,10 +53,15 @@ vertical-align: middle;
 background: linear-gradient(to bottom, #4faedb, #2e7ac4);
 margin-right: 20px;
 padding: 0 10px;
+color: white;
 line-height: 40px;
 }
 .lastline a {
 text-decoration: none;
+color: white;
+}
+.lastline a:hover {
+text-decoration:underline;
 color: white;
 }
 .header:after {
@@ -121,7 +127,7 @@ border-width:1px;
 }
 .button_facebook:before {
 border-right: 2px groove #4c68a9;
-content: 'f';
+content:  url(../img/facebook.svg);
 font-size: 24px;
 font-weight: 900;
 padding: 0 15px;
@@ -129,6 +135,9 @@ float: left;
 }
 .login {
 font-size: 14px;
+}
+i{
+margin-left: 5px;
 }
 .oudiv{
 display: inline-block;

@@ -107,11 +107,14 @@ form {
 	-moz-box-shadow: 0px 0px 1px 1px rgba(189,195,199,1);
 	box-shadow: 0px 0px 1px 1px rgba(189,195,199,1);
 }
-.sitemap span{
+.sitemap li{
 	margin-top: -2px;
 	float: left;
 	padding: 0 3px 2px 4px;
 	line-height: 19px;
+}
+.sitemap a:hover{
+text-decoration: none;
 }
 
 /*IMG*/
@@ -216,7 +219,7 @@ form {
 
 /*LEFTFORM*/
 
-.auto_search {
+.block_car-search {
 	float: left;
   height: 135px;
 	padding: 0 11px 0 16px;
@@ -231,14 +234,14 @@ form {
   -moz-box-shadow: 2px 2px 2px 1px rgba(179,179,179,1);
   box-shadow: 2px 2px 2px 1px rgba(179,179,179,1);
 }
-.auto_search2 > p {
+.car_search > p {
 	margin-left: -10px;
 	text-align: center;
 	color: #154468;
 	font-family: arial black;
 	font-size: 12px;
 }
-.auto_search a, .tire_search a {
+.block_car-search a, .tire_search a{
 	float: right;
 	display: block;
 	margin: -4px 8px 8px 2px;
@@ -247,10 +250,14 @@ form {
   font-size: 14px;
 	width: 51px;
 	height: 15px;
-	border-bottom: 2px solid #a6b1bc;
 	color: #154467;
+  text-decoration: none;
 }
-.auto_search:after{
+.block_car-search a:hover, .tire_search a:hover{
+  text-decoration: underline;
+  border-bottom: 2px solid #a6b1bc;
+}
+.block_car-search:after{
 	display: block;
 	clear: both;
 	content: '';
@@ -308,9 +315,10 @@ form {
 	width: 58px;
 }
 
+
 /*CENTERFORM*/
 
-.centerform {
+.block_tire-search {
   float: left;
   height: 133px;
   padding: 0 14px 2px 10px;
@@ -371,7 +379,7 @@ form {
 
 /*RIGHTFORM*/
 
-.rightform {
+.block_disc-search {
   height: 135px;
 	margin-top: -3px;
 	border-radius: 18px;
@@ -397,9 +405,14 @@ form {
   font-size: 14px;
   width: 51px;
   height: 15px;
-  border-bottom: 2px solid #a6b1bc;
   color: #154467;
+  text-decoration: none;
+  }
+.disc_search a:hover{
+text-decoration: underline;
+border-bottom: 2px solid #a6b1bc;
 }
+
 .disc_class {
 	float: left;
 	padding: 6px 0 0 7px;
